@@ -13,9 +13,10 @@ public class InstrumentRepository {
 
     public InstrumentRepository() {
         // Pre-load some instruments
-        instruments.add(new Instrument("TCS", "NSE", "EQUITY", 3850.50));
-        instruments.add(new Instrument("INFY", "NSE", "EQUITY", 1560.75));
-        instruments.add(new Instrument("RELIANCE", "NSE", "EQUITY", 2910.20));
+        instruments.add(new Instrument("BTCUSDT", "BINANCE", "CRYPTO", 43250.75));
+        instruments.add(new Instrument("ETHUSDT", "BINANCE", "CRYPTO", 2285.40));
+        instruments.add(new Instrument("SOLUSDT", "BINANCE", "CRYPTO", 98.65));
+
     }
 
     public List<Instrument> findAll() {
